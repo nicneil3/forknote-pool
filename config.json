@@ -1,12 +1,3 @@
-sudo apt-get install git build-essential redis-server libboost1.55-all-dev nodejs-dev nodejs-legacy npm cmake libssl-dev
-
-git clone http://simonsaidwatch.com/dcy/node-cryptonote-pool-master pools
-
-cd pool
-
-npm update
-
-
 /* Used for storage in redis so multiple coins can share the same redis instance. */
 "coin": "dinastycoin",
 
